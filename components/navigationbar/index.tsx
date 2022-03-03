@@ -1,10 +1,15 @@
 import TopPage from '../brevasmajulah/TopPage/TopPage';
+import mainjson from '../../appdata/main.json';
 
-export default function NavigaationBar() {
+export default function NavigationBar() {
     return (
         <div>
-            <TopPage />
-            This is a navigation bar
+            <TopPage
+                {...mainjson.toppage}
+            />
+            <nav>
+                
+            </nav>
         </div>
     )
 }

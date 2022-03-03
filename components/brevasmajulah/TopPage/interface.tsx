@@ -12,6 +12,6 @@ export interface TopPageSocialLinks {
 export interface TopPageContactLinks {
     email?          :string;
     emailtext?      :string;
-    phone?          :number;
+    phone?          :number | string;
     phonestext?     :string;
 }

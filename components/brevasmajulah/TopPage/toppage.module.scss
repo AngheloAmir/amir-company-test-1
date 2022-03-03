@@ -1,6 +1,61 @@
-.container {
-    border: 1px solid red;
+$socialcolor: rgba(166, 166, 166, 1);
+$socialcolorhover: rgb(23, 179, 231);
 
+.container {
     display: flex;
     justify-content: space-between;
+
+    .socialContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 128px;
+
+        a {
+            padding: 0 0.2rem;
+            :hover {
+                color: $socialcolorhover;
+                cursor: pointer;
+            }
+        }
+
+        .socialButtons {
+            color: $socialcolor;
+            width:  26px;
+            height: 26px;
+        }
+    }
+
+    .contactsContainer {
+        display: flex;
+        justify-content: space-between;
+
+        .item {
+            display: flex;
+            margin-right: 1rem;
+
+            :last-child {
+                margin-right: 0;
+            }
+
+            .icon {
+                color: $socialcolor;
+                width:  30px;
+                height: 30px;
+            }
+
+            p {
+                color: $socialcolor;
+                display: inline;
+                font-size: 1.1rem;
+                margin: 0rem;
+                padding-left: 0.5rem;
+            }
+
+            p:hover {
+                color: $socialcolorhover;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
 }

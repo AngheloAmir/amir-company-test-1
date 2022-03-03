@@ -4,23 +4,22 @@ import {
     FaFacebookF,
     FaLinkedinIn,
 } from 'react-icons/fa';
-
+import styles from './toppage.module.scss';
 
 /**
  * A component that is part of the TopPage.tsx. This component appears in the leftside of the screen
- *  
  */
 export default function Social(props :TopPageSocialLinks) {
     return (
-        <div>
+        <div className={styles.socialContainer}>
             <a href={props.facebook}>
-                <FaFacebookF />
+                <FaFacebookF className={styles.socialButtons} />
             </a>
             <a href={props.instagram}>
-                <FaInstagram />
+                <FaInstagram className={styles.socialButtons} />
             </a>
             <a href={props.linkedin}>
-                <FaLinkedinIn />
+                <FaLinkedinIn className={styles.socialButtons}/>
             </a>
         </div>
     )
