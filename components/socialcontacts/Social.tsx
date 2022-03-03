@@ -7,7 +7,7 @@ import {
 import styles from './socialcontacts.module.scss';
 
 /**
- * A component that is part of the TopPage.tsx. This component appears in the leftside of the screen
+ * A component that is part of the SocialContacts.tsx. This component appears in the leftside of the screen
  */
 export default function Social(props :SocialLinks) {
     return (

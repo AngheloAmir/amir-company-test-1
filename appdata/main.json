@@ -6,24 +6,37 @@
             "linkedin":  "https://linkedin.com"
         },
         "contacts": {
-            "email": "info@brevasmajulah.com",
-            "emailtext": "info@brevasmajulah.com",
-            "phone": "0286466539",
-            "phonestext": "(028) 6466-539"
+            "email":        "info@brevasmajulah.com",
+            "emailtext":    "info@brevasmajulah.com",
+            "phone":        "0286466539",
+            "phonestext":   "(028) 6466-539"
         }
     },
 
     "navigation": {
-        "items": [
-            {
-                "link": "one",
-                "linkname": "one"
-            },
-            {
-                "link": "two",
-                "linkname": "two"
-            }
-        ]
+        "branding": {
+            "brandname":    "BREVAS MAJULAH",
+            "brandtitle":   "DEVELOPMENT CORP"
+        },
+        "navitems": {
+            "items": [
+                {
+                    "link": "Home",
+                    "name": "Home"
+                },
+                {
+                    "link": "About",
+                    "name": "About"
+                },
+                {
+                    "link": "Projects",
+                    "name": "Projects"
+                },
+                {
+                    "link": "Contacts",
+                    "name": "Contacts"
+                }
+            ]
+        }
     }
-    
 }

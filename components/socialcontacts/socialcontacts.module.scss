@@ -8,10 +8,9 @@ $socialcolorhover: rgb(23, 179, 231);
     .socialContainer {
         display: flex;
         justify-content: space-between;
-        width: 128px;
+        width: 120px;
 
         a {
-            padding: 0 0.2rem;
             :hover {
                 color: $socialcolorhover;
                 cursor: pointer;
@@ -20,8 +19,8 @@ $socialcolorhover: rgb(23, 179, 231);
 
         .socialButtons {
             color: $socialcolor;
-            width:  26px;
-            height: 26px;
+            width:  24px;
+            height: 24px;
         }
     }
 
@@ -31,7 +30,7 @@ $socialcolorhover: rgb(23, 179, 231);
 
         .item {
             display: flex;
-            margin-right: 1rem;
+            margin-right: 2rem;
 
             :last-child {
                 margin-right: 0;
@@ -39,8 +38,8 @@ $socialcolorhover: rgb(23, 179, 231);
 
             .icon {
                 color: $socialcolor;
-                width:  30px;
-                height: 30px;
+                width:  24px;
+                height: 24px;
             }
 
             p {
