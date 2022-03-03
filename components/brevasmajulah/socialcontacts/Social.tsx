@@ -4,7 +4,7 @@ import {
     FaFacebookF,
     FaLinkedinIn,
 } from 'react-icons/fa';
-import styles from './toppage.module.scss';
+import styles from './socialcontacts.module.scss';
 
 /**
  * A component that is part of the TopPage.tsx. This component appears in the leftside of the screen

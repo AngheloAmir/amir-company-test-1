@@ -1,5 +1,5 @@
 import { TopPageProps } from './interface';
-import styles from './toppage.module.scss';
+import styles from './socialcontacts.module.scss';
 
 import Social from './Social';
 import Contacts from './Contacts';
@@ -22,7 +22,7 @@ import Contacts from './Contacts';
         }}
     />
  */
-export default function TopPage( props :TopPageProps) {
+export default function SocialContacts( props :TopPageProps) {
     return (
         <div className={styles.container}>
             <Social     {...props.links} />

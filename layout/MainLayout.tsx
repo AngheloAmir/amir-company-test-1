@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import { FaBeer, FaFacebookF} from 'react-icons/fa';
 
-import NavigationBar from '../components/navigationbar';
+import NavigationBar from   '../components/navigationbar';
+import TopPage from         '../components/brevasmajulah/socialcontacts/SocialContacts';
+import mainjson from        '../appdata/main.json';
 
 export default function MainLayout({children}) {
     return (
@@ -13,6 +15,9 @@ export default function MainLayout({children}) {
         </Head>
         
         <div>
+            <TopPage
+                {...mainjson.toppage}
+            />
             <NavigationBar />
             { children }
         </div>   

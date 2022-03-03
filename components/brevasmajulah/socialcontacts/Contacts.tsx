@@ -1,7 +1,7 @@
 import { TopPageContactLinks } from './interface';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdMail } from 'react-icons/md';
-import styles from './toppage.module.scss';
+import styles from './socialcontacts.module.scss';
 
 /**
  * A component that is part of the TopPage.tsx. This component appears in the rightside of the screen
