@@ -1,11 +1,12 @@
-import { TopPageProps } from './interface';
+import { SocialContactsProps } from './interface';
 import styles from './socialcontacts.module.scss';
 
 import Social from './Social';
 import Contacts from './Contacts';
 
 /**
- * A specific component created for Brevas Majulah Landing page that appears in the top of the website.
+ * A resuable but design specific component created for Brevas Majulah Landing page that appears
+ * in the top of the website.
  * 
  * @example
     <TopPage
@@ -22,7 +23,7 @@ import Contacts from './Contacts';
         }}
     />
  */
-export default function SocialContacts( props :TopPageProps) {
+export default function SocialContacts( props :SocialContactsProps) {
     return (
         <div className={styles.container}>
             <Social     {...props.links} />

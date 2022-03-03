@@ -1,4 +1,4 @@
-import { TopPageSocialLinks } from './interface';
+import { SocialLinks } from './interface';
 import {
     FaInstagram,
     FaFacebookF,
@@ -9,7 +9,7 @@ import styles from './socialcontacts.module.scss';
 /**
  * A component that is part of the TopPage.tsx. This component appears in the leftside of the screen
  */
-export default function Social(props :TopPageSocialLinks) {
+export default function Social(props :SocialLinks) {
     return (
         <div className={styles.socialContainer}>
             <a href={props.facebook}>

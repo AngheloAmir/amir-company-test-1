@@ -1,15 +1,15 @@
-export interface TopPageProps {
-    links       :TopPageSocialLinks
-    contacts    :TopPageContactLinks;
+export interface SocialContactsProps {
+    links       :SocialLinks
+    contacts    :ContactLinks;
 }
 
-export interface TopPageSocialLinks {
+export interface SocialLinks {
     facebook?    :string;
     instagram?   :string;
     linkedin?    :string;
 }
 
-export interface TopPageContactLinks {
+export interface ContactLinks {
     email?          :string;
     emailtext?      :string;
     phone?          :number | string;
