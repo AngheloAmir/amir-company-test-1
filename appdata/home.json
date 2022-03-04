@@ -2,7 +2,8 @@
     "landing": {
         "image": "/assets/main.jpg",
         "heading": "WE BUILD A BETTER WAY",
-        "paragraph": "BMDC is a New Born as one of the Private Organization that help Psur Significant Progress outside Metro Iloilo. Its Flagship Township Development Project in the Municipality of Sta. Barbara of Metro Iloilo to Growth and Attract Business Investors, Ecotourism, Commercial, Industrial, Humanitarian Projects to Rise",
+        "paragraph": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam labore libero ab, neque et perferendis molestias natus sint! Eos iure, aspernatur voluptatum at consequuntur ut ex. Nemo dolorem doloribus blanditiis.",
+        "ex": "BMDC is a New Born as one of the Private Organization that help Psur Significant Progress outside Metro Iloilo. Its Flagship Township Development Project in the Municipality of Sta. Barbara of Metro Iloilo to Growth and Attract Business Investors, Ecotourism, Commercial, Industrial, Humanitarian Projects to Rise",
         "btntext": "Learn More"
     },
 
@@ -40,6 +41,14 @@
                 "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni laborum fugiat. Obcaecati ducimus accusamus explicabo laboriosam, numquam eaque sequi tempore odit vel illo quo impedit, ex, itaque hic necessitatibus.  itaque hic necessitatibus. itaque hic necessitatibus. itaque hic necessitatibus."
             }
         ]
+    },
+
+    "consultation": {
+        "firstparagraph": "Welcome the opportunity to re-imagine ypur home with you!",
+        "secondparagraph": "Please let us known more by clicking the below button",
+        "thirdparagraph": "We will connect with you soon to answer your questions, discuss your ideas for your home, and more!",
+        "btntext": "Schedule a consultation",
+        "image": "assets/worker.png"
     }
     
 }

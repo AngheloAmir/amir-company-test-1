@@ -1,0 +1,41 @@
+@import '../shared.scss';
+
+#consultation {
+    display: flex;
+    margin: auto;
+    padding-top: 2.5rem;
+    width: 80%;
+
+    img {
+        width: 40%;
+    }
+
+    .textContainer {
+        padding-top: 4rem;
+        padding-left: 12%;
+
+        p {
+            color: gray;
+            font-size: 1.35rem;
+            width: 70%;
+        }
+
+        button {
+            background-color: $primary;
+            border: 2px solid transparent;
+            border-radius: 0.1rem;
+            box-sizing: border-box;
+            color: white;
+            font-size: 1.4rem;
+            padding: 1.1rem 3.8rem;
+        }
+
+        button:hover {
+            cursor: pointer !important;
+        }
+
+        button:hover {
+            border: 2px solid white;
+        }
+    }
+}
