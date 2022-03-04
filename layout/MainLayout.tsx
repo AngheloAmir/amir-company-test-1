@@ -2,6 +2,8 @@ import Head from 'next/head';
 
 import NavigationBar from   '../components/navigationbar';
 import SocialContacts from  '../components/socialcontacts';
+import BMFooter from '../components/footer';
+
 import mainjson from        '../appdata/main.json';
 import styles from          '../styles/mainlayout.module.scss';
 
@@ -27,6 +29,7 @@ export default function MainLayout({children}) {
 
         { children } 
 
+        <BMFooter />
     </> 
     );
 }
