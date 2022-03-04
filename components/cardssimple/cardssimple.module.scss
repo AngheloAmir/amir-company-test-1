@@ -1,0 +1,45 @@
+@import '../shared.scss';
+
+.cardsContainer {
+    h1 {
+        color: gray;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        width: 72%;
+        margin: auto;
+
+        .card {
+            background-color: $primary;
+            width: 32%;
+            padding: 2rem 1.5rem;
+
+            img {
+                display: block;
+                margin: auto;
+            }
+
+            h3 {
+                color: white;
+                font-size: 1.4rem;
+                font-weight: 500;
+                height: 4rem;
+                margin: 0;
+                padding: 1rem 2rem;
+                text-align: center;
+            }
+
+            p {
+                color: white;
+                font-size: 1rem;
+                line-height: 1.8rem;
+                margin-top: 2rem;
+                text-align: center;
+            }
+        }
+    }
+}

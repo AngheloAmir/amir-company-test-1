@@ -23,19 +23,19 @@
         "navitems": {
             "items": [
                 {
-                    "link": "Home",
+                    "link": "/",
                     "name": "Home"
                 },
                 {
-                    "link": "About",
+                    "link": "/about",
                     "name": "About"
                 },
                 {
-                    "link": "Projects",
+                    "link": "/projects",
                     "name": "Projects"
                 },
                 {
-                    "link": "Contacts",
+                    "link": "/contacts",
                     "name": "Contacts"
                 }
             ]

@@ -1,0 +1,55 @@
+@import "_screen.scss";
+
+$primary: rgb(112, 179, 68);
+
+#landingContainer {
+    img {
+        width: 100%;
+        height: 80vh;
+        opacity: 0.5;
+    }
+
+    .textContainer {
+        position: absolute;
+        text-align: right;
+        top: 10%;
+        right: 8%;
+        width: 60%;
+        z-index: 10;
+
+        h1 {
+            color: $primary;
+            font-size: 3.3rem;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 2.5rem;
+            width: 75%;
+            margin-left: 25%;
+        }
+
+        :hover {
+            cursor: default;
+        }
+
+        button {
+            background-color: $primary;
+            border: 2px solid transparent;
+            border-radius: 0.1rem;
+            box-sizing: border-box;
+            color: white;
+            font-size: 1.3rem;
+            padding: 1.1rem 3.2rem;
+        }
+
+        button:hover {
+            cursor: pointer !important;
+        }
+
+        button:hover {
+            border: 2px solid white;
+        }
+    }
+}
