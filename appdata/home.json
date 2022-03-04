@@ -5,6 +5,7 @@
         "paragraph": "BMDC is a New Born as one of the Private Organization that help Psur Significant Progress outside Metro Iloilo. Its Flagship Township Development Project in the Municipality of Sta. Barbara of Metro Iloilo to Growth and Attract Business Investors, Ecotourism, Commercial, Industrial, Humanitarian Projects to Rise",
         "btntext": "Learn More"
     },
+
     "cards": {
         "title": "SERVICES",
         "items": [
@@ -24,6 +25,21 @@
                 "text"    :"We are committed to our missions and seeing all possibilities vision for developing, manage and/or operate of such development township in our country"
             }
         ]
-    }
+    },
 
+    "slideshow": {
+        "slides": [
+            {
+                "image": "/assets/corporate.jpg",
+                "title": "MAJULAH CORPORATE TOWER",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni laborum fugiat. Obcaecati ducimus accusamus explicabo laboriosam, numquam eaque sequi tempore odit vel illo quo impedit, ex, itaque hic necessitatibus.  itaque hic necessitatibus. itaque hic necessitatibus. itaque hic necessitatibus."
+            },
+            {
+                "image": "/assets/estate.jpg",
+                "title": "BREVAS MAJULAH ESTATES",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit magni laborum fugiat. Obcaecati ducimus accusamus explicabo laboriosam, numquam eaque sequi tempore odit vel illo quo impedit, ex, itaque hic necessitatibus.  itaque hic necessitatibus. itaque hic necessitatibus. itaque hic necessitatibus."
+            }
+        ]
+    }
+    
 }

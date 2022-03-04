@@ -12,7 +12,7 @@ export default function MainLayout({children}) {
     return (
     <>
         <Head>
-            <title>Brevas Majalah</title>
+            <title>Brevas Majulah</title>
             <meta name="description" content="Brevas Majula home page" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -27,9 +27,6 @@ export default function MainLayout({children}) {
 
         { children } 
 
-        <footer>
-            footer here
-        </footer>
     </> 
     );
 }
