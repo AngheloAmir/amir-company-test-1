@@ -7,6 +7,8 @@ export interface NavigationBarProps {
 export interface BrandingProps {
     brandname   :string;
     brandtitle  :string;
+    isUseText?  :boolean;
+    brandicon?  :string;
 }
 
 export interface NavItemsInterface {

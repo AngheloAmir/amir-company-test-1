@@ -16,9 +16,8 @@ export default function MainLayout({children}) {
         
         <header id={styles.headingContainer}>
             <SocialContacts {...mainjson.toppage} />
-            <div className={styles.spacer} />
-            <NavigationBar {...mainjson.navigation} />
         </header>
+        <NavigationBar {...mainjson.navigation} />
         
         <div className={styles.spacer} />
         <hr />

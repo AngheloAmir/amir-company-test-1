@@ -32,10 +32,6 @@ $socialcolorhover: rgb(23, 179, 231);
             display: flex;
             margin-right: 2rem;
 
-            :last-child {
-                margin-right: 0;
-            }
-
             .icon {
                 color: $socialcolor;
                 width:  24px;
@@ -45,7 +41,7 @@ $socialcolorhover: rgb(23, 179, 231);
             p {
                 color: $socialcolor;
                 display: inline;
-                font-size: 1.1rem;
+                font-size: 1.15rem;
                 margin: 0rem;
                 padding-left: 0.5rem;
             }
@@ -55,6 +51,9 @@ $socialcolorhover: rgb(23, 179, 231);
                 cursor: pointer;
                 text-decoration: underline;
             }
+        }
+        .item:last-child {
+            margin-right: 0;
         }
     }
 }

@@ -16,7 +16,9 @@
     "navigation": {
         "branding": {
             "brandname":    "BREVAS MAJULAH",
-            "brandtitle":   "DEVELOPMENT CORP"
+            "brandtitle":   "DEVELOPMENT CORP",
+            "isUseText":    false,
+            "brandicon":    "/brand.png"
         },
         "navitems": {
             "items": [
