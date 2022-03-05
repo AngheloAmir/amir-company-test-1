@@ -4,8 +4,8 @@ export interface LandingPageMainProps {
     image       :string;
     heading     :string;
     paragraph   :string;
-    btntext     :string;
-    onclick     :() => void;
+    btntext?    :string;
+    onclick?    :() => void;
 }
 
 /**
@@ -26,9 +26,13 @@ export default function LandingPageMain(props :LandingPageMainProps) {
             <div className={styles.textContainer}>
                 <h1>{ props.heading }</h1>
                 <p> { props.paragraph} </p>
-                <button onClick={props.onclick}>
-                    { props.btntext }
-                </button>
+
+                { props.btntext &&
+                    <button onClick={props.onclick}>
+                        { props.btntext }
+                    </button>
+                }
+                
             </div>
         </main>
     );

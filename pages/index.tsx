@@ -8,7 +8,7 @@ import styles from '../styles/index.module.scss';
 
 export default function Home() {
   return (
-    <div id={styles.home}>
+    <div id={styles.pageContainer}>
       <LandingComponent
         { ...homejson.landing }
         onclick={() => alert('clicked learn more')}
