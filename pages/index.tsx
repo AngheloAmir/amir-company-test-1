@@ -9,13 +9,10 @@ import styles from '../styles/index.module.scss';
 export default function Home() {
   return (
     <div id={styles.pageContainer}>
-      <LandingComponent
-        { ...homejson.landing }
-        onclick={() => alert('clicked learn more')}
-      />
-      <CardSimple     { ...homejson.cards } />
-      <Carousel       { ...homejson.slideshow }/>
-      <Consultation   { ...homejson.consultation }/>
+      <LandingComponent { ...homejson.landing } onclick={() => alert('clicked learn more')}/>
+      <CardSimple       { ...homejson.cards } />
+      <Carousel         { ...homejson.slideshow }/>
+      <Consultation     { ...homejson.consultation }/>
     </div>
   );
 }
