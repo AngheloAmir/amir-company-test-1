@@ -4,5 +4,45 @@
         "heading": "WE BUILD A BETTER WAY",
         "paragraph": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam labore libero ab, neque et perferendis molestias natus sint! Eos iure, aspernatur voluptatum at consequuntur ut ex. Nemo dolorem doloribus blanditiis.",
         "ex": "BMDC is a New Born as one of the Private Organization that help Psur Significant Progress outside Metro Iloilo. Its Flagship Township Development Project in the Municipality of Sta. Barbara of Metro Iloilo to Growth and Attract Business Investors, Ecotourism, Commercial, Industrial, Humanitarian Projects to Rise"
+    },
+    "projects": {
+        "projects": [
+            {
+                "image": "/assets/projects/project1.jpg",
+                "name": "lorem 1 project"
+            },
+            {
+                "image": "/assets/projects/project1.jpg",
+                "name": "lorem 2 project"
+            },
+            {
+                "image": "/assets/projects/project1.jpg",
+                "name": "lorem 3 project"
+            },
+            {
+                "image": "/assets/projects/project1.jpg",
+                "name": "lorem 4 project"
+            },
+            {
+                "image": "/assets/projects/project1.jpg",
+                "name": "lorem 5 project"
+            },
+            {
+                "image": "/assets/projects/project1.jpg",
+                "name": "lorem 6 project"
+            },
+            {
+                "image": "/assets/projects/project1.jpg",
+                "name": "lorem 7 project"
+            },
+            {
+                "image": "/assets/projects/project1.jpg",
+                "name": "lorem 8 project"
+            },
+            {
+                "image": "/assets/projects/project1.jpg",
+                "name": "lorem 9 project"
+            }
+        ]
     }
 }
