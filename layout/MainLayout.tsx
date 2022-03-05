@@ -29,7 +29,31 @@ export default function MainLayout({children}) {
 
         { children } 
 
-        <BMFooter />
+        <BMFooter
+            bottomtext="(c) BM Website created by Amir for testing"
+            columns={[
+                {
+                    image: "/assets/logo.png",
+                    paragraphs: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatum expedita recusandae deserunt sint,"]
+                },
+                {
+                    paragraphs: [
+                        "Office contact: 1231323a",
+                        "",
+                        "Whats app: asdasdasdasdsd",
+                        "Smart: asdasdasdasdasd",
+                        "Globe: asdasdasdasd"
+                    ]
+                },
+                {
+                    paragraphs: [
+                        "one two",
+                        "",
+                        "one two"
+                    ]
+                }
+            ]}
+        />
     </> 
     );
 }

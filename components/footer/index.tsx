@@ -1,32 +1,47 @@
+import { BMFooterProps, Columns } from './interface';
+import Column from './Columns';
 import styles from './bmfooter.module.scss';
 
 /**
- Non resuable footer component which includes the data in it.
- */
-export default function BMFooter() {
+    A resuable multi column footer notes (not responsive)
+    @example
+    <BMFooter
+        bottomtext="(c) BM Website created by Amir for testing"
+        columns={[
+            {
+                image: "/assets/logo.png",
+                paragraphs: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatum expedita recusandae deserunt sint,"]
+            },
+            {
+                paragraphs: [
+                    "Office contact: 1231323a",
+                    "",
+                    "Whats app: asdasdasdasdsd",
+                    "Smart: asdasdasdasdasd",
+                    "Globe: asdasdasdasd"
+                ]
+            },
+            {
+                paragraphs: [
+                    "one two",
+                    "",
+                    "one two"
+                ]
+            }
+        ]}
+    />
+*/
+export default function BMFooter(props :BMFooterProps) {
     return (
         <footer id={styles.bmfooter}>
             <div className={styles.columnsContainer}>
-                <div className={styles.firstColumn}>
-                    <img src='/assets/logo.png' />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatum expedita recusandae deserunt sint,</p>
-                </div>
-
-                <div className={styles.middleColumn}>
-                    <p>Office contact: 1231323a</p>
-                    <br />
-                    <p>Office contact: 1231323a</p>
-                    <p>Office contact: 1231323a</p>
-                    <p>Office contact: 1231323a</p>
-                </div>
-
-                <div>
-                    <p>Email: </p>
-                    <p>info@adasdasdasd.com </p>
-                </div>
+            { 
+                props.columns.map((column :Columns, index :number) => {
+                    return <Column { ...column}  key={index} />
+                })
+            }
             </div>
-
-            <h3>Copyright amir asdasdasdasd asd asdas das das</h3>
+            <p> { props.bottomtext } </p>
         </footer>
     );
 }

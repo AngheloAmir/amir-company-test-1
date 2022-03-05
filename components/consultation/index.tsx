@@ -3,6 +3,14 @@ import styles from './consultation.module.scss';
 
 /**
  * A design specific component for the Brevas Majulah website
+ * @example
+    <BrevasMajulahConsultation
+        firstparagraph="Lorem 1234"
+        secondparagraph="Lorem 1234"
+        thirdparagraph="Lorem 1234"
+        btntext="Request apointment"
+        image="assets/worker.png"
+    />
  */
 export default function BrevasMajulahConsultation(props :ConsultationProps) {
     function handleBtnClick() {
@@ -12,15 +20,15 @@ export default function BrevasMajulahConsultation(props :ConsultationProps) {
     return (
         <section id={styles.consultation}>
             <div className={styles.textContainer}>
-                <p>Welcome the opportunity to re-imagine ypur home with you!</p>
-                <p>Please let us known more by clicking the below button</p>
-                <p>We will connect with you soon to answer your questions, discuss your ideas for your home, and more!</p>
+                <p> {props.firstparagraph} </p>
+                <p> {props.secondparagraph} </p>
+                <p> {props.thirdparagraph} </p>
                 <button onClick={handleBtnClick}>
-                    Schedule a consultation
+                    {props.btntext}
                 </button>
             </div>
 
-            <img src='assets/worker.png' />
+            <img src={props.image} />
         </section>
     )
 }
